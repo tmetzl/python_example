@@ -16,7 +16,7 @@ setup(
     author_email='tim.metzler@h-brs.de',
     packages=find_packages(exclude=('tests', 'docs')),
     install_requires=[],
-    include_package_data = True,
+    include_package_data=True,
     zip_safe=False,
     test_suite='tests',
     tests_require=['pytest-cov']
